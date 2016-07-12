@@ -16,19 +16,19 @@ module TwoCaptcha
 
   class WrongUserKey < Error
     def initialize
-      super('Wrong “key” parameter format, it should contain 32 symbols')
+      super('Wrong "key" parameter format, it should contain 32 symbols')
     end
   end
 
   class InvalidUserKey < Error
     def initialize
-      super('The “key” doesn’t exist')
+      super('The "key" doesn\'t exist')
     end
   end
 
   class ZeroBalance < Error
     def initialize
-      super('You don’t have enought money on your account')
+      super('You don\'t have enought money on your account')
     end
   end
 
